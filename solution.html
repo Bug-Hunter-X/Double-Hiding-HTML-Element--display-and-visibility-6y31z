@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Uncommon HTML Bug Solution</title>
+</head>
+<body>
+  <div id="myDiv">
+    This text should be visible.
+  </div>
+  <script>
+    //Correct way to hide an element based on need
+    //Option 1: Completely remove from flow
+    //document.getElementById("myDiv").style.display = "none";
+    //Option 2: Make invisible but keep space
+    //document.getElementById("myDiv").style.visibility = "hidden";
+  </script>
+</body>
+</html>
